@@ -30,7 +30,7 @@ class ProductController extends Controller
      *
      * @return \Illuminate\Http\JsonResponse
      */
-    public function store(ProductRequest $request): JsonResponse
+    public function create(ProductRequest $request): JsonResponse
     {
         $created_product = ProductItem::create($request);
 

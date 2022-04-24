@@ -14,6 +14,6 @@ This is a simple product item system to perfom basic CRUD operations:
 
 If everything works fine up till this point, you're good to go!
 
-You can then test the application using this [postman collection](https://www.getpostman.com/collections/4c61e570b13014ea41d6).
+You can then test the application using this [postman collection](https://www.getpostman.com/collections/73ecb6688e91841c5d28)
 
 ## Happy Coding!!!

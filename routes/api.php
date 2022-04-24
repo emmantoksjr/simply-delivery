@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('authenticated')->group(function () {
     Route::prefix('products')->name('products.')->group(function () {
         Route::get('/', [ProductController::class, 'index'])->name('index');
-        Route::post('/', [ProductController::class, 'store'])->name('create');
+        Route::post('/', [ProductController::class, 'create'])->name('create');
         Route::get('/{product:slug}', [ProductController::class, 'show'])->name('get');
         Route::put('/{product:slug}', [ProductController::class, 'update'])->name('update');
         Route::delete('/{product:slug}', [ProductController::class, 'destroy'])->name('delete');
